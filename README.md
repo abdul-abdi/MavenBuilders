@@ -1,6 +1,57 @@
 # MavenBuilders
 # Telos hackathon project.
 
+# Getting Started
+# Follow these instructions to set up and run the project on your local machine.
+
+# Prerequisites
+Make sure you have the following installed on your machine:
+
+Node.js (version 18.13.0)
+npm (version 9.2.0)
+Hardhat(version 2.18.2)
+
+# Installation
+Clone this repository:
+git clone https://github.com/abdul-abdi/MavenBuilders.git 
+
+# Change into the project directory:
+cd MavenBuilders
+
+# Install project dependencies:
+npm install hardhat
+// if you dont have hardhat within your machine
+
+npm install
+// use this command to install all project dependencies
+
+
+# Compile Smart Contracts
+To compile the smart contracts, run the following command:
+npx hardhat compile
+
+# Deploy Smart Contracts
+Before deploying, make sure you have configured the deployment settings in the hardhat.config.js file. Once configured, run the deployment script:
+
+npx hardhat run scripts/deploy.js --network <network-name> // we will update this when we configure to the telos network
+Replace <network-name> with the desired Ethereum network (e.g., rinkeby, mainnet).
+
+# Testing
+To run tests, execute the following command:
+npx hardhat test
+
+# Additional Commands
+To clean the cache and delete all artifacts, run:
+npx hardhat clean
+
+# For other available Hardhat commands, refer to the official documentation.
+
+# Contributing
+If you'd like to contribute to this project, please fork the repository and create a pull request. Issues and feature requests are welcome!
+
+# License
+This project is licensed under the MIT License.
+
 # This is the idea behind the smart contract, due to time constraints we could not implement all the functionalities:
 
 Welcome to our cutting-edge decentralized lending platform, where transparency, security, and efficiency converge through the power of a robust and secure smart contract operating on Ethereum Virtual Machine (EVM) compatible networks. This platform is designed to revolutionize lending and borrowing processes, seamlessly connecting borrowers and lenders while prioritizing security, gas optimization, simplicity, risk management, and collateral management.
