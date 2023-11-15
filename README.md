@@ -13,12 +13,15 @@ Hardhat(version 2.18.2)
 
 # Installation
 Clone this repository:
+
 git clone https://github.com/abdul-abdi/MavenBuilders.git 
 
 # Change into the project directory:
+
 cd MavenBuilders
 
 # Install project dependencies:
+
 npm install hardhat
 // if you dont have hardhat within your machine
 
@@ -28,26 +31,40 @@ npm install
 
 # Compile Smart Contracts
 To compile the smart contracts, run the following command:
+
 npx hardhat compile
 
 # Deploy Smart Contracts
 Before deploying, make sure you have configured the deployment settings in the hardhat.config.js file. Once configured, run the deployment script:
 
-npx hardhat run scripts/deploy.js --network <network-name> // we will update this when we configure to the telos network
+npx hardhat run scripts/deploy.js --network <network-name> 
+
+// we will update this when we configure to the telos network
 Replace <network-name> with the desired Ethereum network (e.g., rinkeby, mainnet).
 
 # Testing
 To run tests, execute the following command:
+
 npx hardhat test
 
 # Additional Commands
 To clean the cache and delete all artifacts, run:
+
 npx hardhat clean
 
 # For other available Hardhat commands, refer to the official documentation.
 
 # Contributing
 If you'd like to contribute to this project, please fork the repository and create a pull request. Issues and feature requests are welcome!
+
+# Common github commands to contribute to this repo
+
+git add .
+
+git commit -m ""
+
+git push origin main
+
 
 # License
 This project is licensed under the MIT License.
