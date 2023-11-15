@@ -1,7 +1,5 @@
 # MavenBuilders
-Telos hackathon project.
-
-Hello, really excited to work with my team for this hackathon.
+# Telos hackathon project.
 
 # This is the idea behind the smart contract, due to time constraints we could not implement all the functionalities:
 
